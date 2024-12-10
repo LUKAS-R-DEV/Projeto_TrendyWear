@@ -20,6 +20,12 @@ button:hover{
 header img{
     margin-right: 310px;
 }
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
 
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -256,7 +262,8 @@ footer p {
     } 
     header img{
         transform: scale(0.5);
-        margin-left: -40px; 
+        margin-left: -55px; 
     }
 }
+
 
