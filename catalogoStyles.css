@@ -147,3 +147,18 @@ footer {
     padding: 20px;
     margin-top: 50px;
 }
+@media (max-width: 480px){
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+
+    header img{
+        transform: scale(0.6);
+        margin-left: -10px; 
+    }  
+}

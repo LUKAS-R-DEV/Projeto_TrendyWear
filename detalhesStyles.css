@@ -192,5 +192,9 @@ footer p {
     .produtoTexto .btn {
         font-size: 1rem;
         padding: 10px 20px;
+    } 
+    header img{
+        transform: scale(0.6);
+        margin-left: -10px; 
     }
 }
