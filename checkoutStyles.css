@@ -77,7 +77,9 @@ section h2 {
     font-size: 2rem;
     color: black;
     margin-bottom: 20px;
+    text-align: center;
 }
+
 
 section img {
     width: 100%;
@@ -175,20 +177,15 @@ footer p {
     cursor: pointer;
     text-align: center;
     margin-top: 20px;
-}
-
-.btn:hover {
+  }
+  
+  .btn:hover {
     background-color: #c68a2e;
-}
+  }
+  
 
-/* Esconde o checkbox (não visível para o usuário) */
-input[type="checkbox"] {
-    display: none;
-}
-
-/* Mensagem de confirmação (inicialmente oculta) */
-.mensagemCompra {
-    display: none;
+  .mensagemCompra {
+    display: none; 
     background-color: black;
     padding: 15px;
     margin-top: 20px;
@@ -196,13 +193,12 @@ input[type="checkbox"] {
     text-align: center;
     font-size: 1.2rem;
     color: #00796b;
-}
+  }
+  
 
-/* Exibe a mensagem quando o checkbox for marcado */
-input[type="checkbox"]:checked ~ .mensagemCompra {
+  form:valid ~ .mensagemCompra {
     display: block;
-}
-
+  }
 @media (max-width: 768px) {
     main {
         padding: 40px 5%;

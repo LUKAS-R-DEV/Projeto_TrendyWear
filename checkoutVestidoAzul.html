@@ -28,7 +28,7 @@
     </header>
     <main>
       <section>
-        <h2>Produto: Vestido Social Azul</h2>
+        <h2>Vestido Social Azul</h2>
         <img
           src="imagens/vestido azul.png"
           alt="Vestido Azul"
@@ -50,7 +50,7 @@
         </ul>
       </section>
       <h2>Formulário de Checkout</h2>
-      <form action="finalizar_compra.html" method="POST">
+      <form id="formCheckout" action="#" method="POST">
         <div>
           <label for="nome">Nome Completo:</label>
           <input type="text" id="nome" name="nome" required />
@@ -79,17 +79,8 @@
           <label for="cvv">Código de Segurança:</label>
           <input type="text" id="cvv" name="cvv" required />
         </div>
-        <label class="confirmacao">
-          <input type="checkbox" id="confirmacaoCompra" />
-          <span class="btn">Finalizar Compra</span>
-        </label>
+        <button type="submit" class="btn">Finalizar Compra</button>
       </form>
-      <div class="mensagemCompra">
-        <p>
-          <strong>Compra Confirmada!</strong> Agradecemos por sua compra na
-          Trendy Wear.
-        </p>
-      </div>
     </main>
     <footer>
       <p>&copy; 2024 Trendy Wear. Todos os direitos reservados.</p>
