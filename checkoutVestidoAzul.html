@@ -1,76 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout - Vestido Azul</title>
-    <link rel="stylesheet" href="checkoutStyles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="checkoutStyles.css" />
+  </head>
+  <body>
     <header>
-        <img src="imagens/Logo.png" alt="Logo Trendy Wear" height="140" width="200">
-        <h1 id="marca">Trendy Wear</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html"><button>Página Inicial</button></a></li>
-                <li><a href="catalogo.html"><button>Cátalogo</button></a></li>
-            </ul>
-        </nav>
-        <main>
-            <section>
-                <h2>Produto: Vestido Social Azul</h2>
-                <img src="imagens/vestido azul.png" alt="Vestido Azul" height="500" width="500">
-                <p><strong>Preço:</strong> R$ 149,99</p>
-                <p><strong>Descrição:</strong> Este vestido social azul é perfeito para eventos formais. Confeccionado com tecido macio, proporciona conforto e sofisticação.</p>
-                <p><strong>Características:</strong></p>
-                <ul>
-                    <li>Material: 100% Poliéster</li>
-                    <li>Cores disponíveis: Azul</li>
-                    <li>Tamanhos: P, M, G, GG</li>
-                    <li>Ideal para: Casamentos, Jantares, Festas Elegantes</li>
-                </ul>
-            </section>
-            <h2>Formulário de Checkout</h2>
-            <form action="finalizar_compra.html" method="POST">
-                <div>
-                    <label for="nome">Nome Completo:</label>
-                    <input type="text" id="nome" name="nome" required>
-                </div>
-                <div>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div>
-                    <label for="endereco">Endereço:</label>
-                    <input type="text" id="endereco" name="endereco" required>
-                </div>
-                <div>
-                    <label for="cep">CEP:</label>
-                    <input type="text" id="cep" name="cep" required>
-                </div>
-                <div>
-                    <label for="cartao">Número do Cartão:</label>
-                    <input type="text" id="cartao" name="cartao" required>
-                </div>
-                <div>
-                    <label for="validade">Data de Validade:</label>
-                    <input type="month" id="validade" name="validade" required>
-                </div>
-                <div>
-                    <label for="cvv">Código de Segurança:</label>
-                    <input type="text" id="cvv" name="cvv" required>
-                </div>
-                <label class="confirmacao">
-                    <input type="checkbox" id="confirmacaoCompra" />
-                    <span class="btn">Finalizar Compra</span>  
-                </label>
-            </form>
-            <div class="mensagemCompra">
-                <p><strong>Compra Confirmada!</strong> Agradecemos por sua compra na Trendy Wear.</p>
-            </div>
-        </main>  
-        <footer>
-            <p>&copy; 2024 Trendy Wear. Todos os direitos reservados.</p>
-        </footer>
-    </body>
+      <img
+        src="imagens/Logo.png"
+        alt="Logo Trendy Wear"
+        height="140"
+        width="200"
+      />
+      <h1 id="marca">Trendy Wear</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><button>Página Inicial</button></a>
+          </li>
+          <li>
+            <a href="catalogo.html"><button>Cátalogo</button></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Produto: Vestido Social Azul</h2>
+        <img
+          src="imagens/vestido azul.png"
+          alt="Vestido Azul"
+          height="500"
+          width="500"
+        />
+        <p><strong>Preço:</strong> R$ 149,99</p>
+        <p>
+          <strong>Descrição:</strong> Este vestido social azul é perfeito para
+          eventos formais. Confeccionado com tecido macio, proporciona conforto
+          e sofisticação.
+        </p>
+        <p><strong>Características:</strong></p>
+        <ul>
+          <li>Material: 100% Poliéster</li>
+          <li>Cores disponíveis: Azul</li>
+          <li>Tamanhos: P, M, G, GG</li>
+          <li>Ideal para: Casamentos, Jantares, Festas Elegantes</li>
+        </ul>
+      </section>
+      <h2>Formulário de Checkout</h2>
+      <form action="finalizar_compra.html" method="POST">
+        <div>
+          <label for="nome">Nome Completo:</label>
+          <input type="text" id="nome" name="nome" required />
+        </div>
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco" required />
+        </div>
+        <div>
+          <label for="cep">CEP:</label>
+          <input type="text" id="cep" name="cep" required />
+        </div>
+        <div>
+          <label for="cartao">Número do Cartão:</label>
+          <input type="text" id="cartao" name="cartao" required />
+        </div>
+        <div>
+          <label for="validade">Data de Validade:</label>
+          <input type="month" id="validade" name="validade" required />
+        </div>
+        <div>
+          <label for="cvv">Código de Segurança:</label>
+          <input type="text" id="cvv" name="cvv" required />
+        </div>
+        <label class="confirmacao">
+          <input type="checkbox" id="confirmacaoCompra" />
+          <span class="btn">Finalizar Compra</span>
+        </label>
+      </form>
+      <div class="mensagemCompra">
+        <p>
+          <strong>Compra Confirmada!</strong> Agradecemos por sua compra na
+          Trendy Wear.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Trendy Wear. Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>

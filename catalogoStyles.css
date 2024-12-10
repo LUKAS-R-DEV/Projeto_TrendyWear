@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -135,7 +133,7 @@ h1 {
     transform: scale(1.1);
 }
 
-/* Efeito no hover */
+
 .produtoItem:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
