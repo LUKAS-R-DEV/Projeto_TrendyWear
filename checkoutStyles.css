@@ -1,0 +1,241 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    background-color: #f7f7f7;
+}
+button{
+    background-color: gold;
+     border: none;
+     border-radius: 20px;
+     width: 140px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     margin-top: -10px;   
+    }
+    button:hover{
+        transform: scale(1.1);
+        background-color: #c68a2e;  
+    }
+    header img{
+        margin-right: 310px;
+    }
+    
+header {
+    background-color:white;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+    margin-top: -95px;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+}
+nav{
+    padding: 14px;
+    margin-top: 40px;
+    background-color: black;
+
+}
+
+
+main {
+    padding: 40px 10%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 40px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style: none;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+section ul li {
+    margin-bottom: 8px;
+}
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-size: 1.1rem;
+    color: black;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form input:focus {
+    border-color: #d79f50;
+    outline: none;
+}
+
+form button {
+    background-color: #d79f50;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #c68a2e;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+.btn {
+    display: inline-block;
+    background-color: gold;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #c68a2e;
+}
+
+/* Esconde o checkbox (não visível para o usuário) */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Mensagem de confirmação (inicialmente oculta) */
+.mensagemCompra {
+    display: none;
+    background-color: black;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #00796b;
+}
+
+/* Exibe a mensagem quando o checkbox for marcado */
+input[type="checkbox"]:checked ~ .mensagemCompra {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 40px 5%;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    section img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+
+    form button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
